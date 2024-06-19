@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd ">
+	<changeSet id="1" author="vaishnavi">
+		<sqlFile path="Release 1\CCIBT\create.sql"/>
+	</changeSet>
+	<changeSet id="2" author="vaishnavi">
+		<sqlFile path="Release 1\CT\alter.sql"/>
+	</changeSet>
+	<changeSet id="3" author="vaishnavi">
+		<sqlFile path="Release 1\TCOO\drop.sql"/>
+	</changeSet>
+	<changeSet id="4" author="vaishnavi">
+		<sqlFile path="Release 1\WIT\rollback.sql"/>
+	</changeSet>
+</databaseChangeLog>
